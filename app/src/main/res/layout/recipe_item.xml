@@ -61,7 +61,7 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_favorite_border"
                 android:contentDescription="Favorit"
-                android:tint="#E59560"
+                app:tint="#E59560"
                 android:scaleType="centerInside"
                 android:padding="8dp" />
         </LinearLayout>
@@ -107,7 +107,7 @@
                 android:paddingEnd="16dp"
                 android:drawableStart="@drawable/ic_delete"
                 android:drawablePadding="4dp"
-                android:drawableTint="#FFFFFF"
+                app:drawableTint="#FFFFFF"
                 android:elevation="2dp" />
         </LinearLayout>
     </LinearLayout>

@@ -45,7 +45,7 @@
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:src="@drawable/ic_favorite_border"
                     android:contentDescription="Favorit"
-                    android:tint="#E59560"
+                    app:tint="#E59560"
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     android:scaleType="centerInside"
@@ -69,7 +69,12 @@
                 android:padding="16dp"
                 android:gravity="center_vertical">
 
-
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="📂"
+                    android:textSize="24sp"
+                    android:paddingEnd="12dp" />
 
                 <TextView
                     android:id="@+id/text_view_recipe_category"
@@ -103,6 +108,12 @@
                     android:orientation="horizontal"
                     android:paddingBottom="12dp">
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🥕"
+                        android:textSize="24sp"
+                        android:paddingEnd="12dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -151,7 +162,12 @@
                     android:orientation="horizontal"
                     android:paddingBottom="12dp">
 
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="👨‍🍳"
+                        android:textSize="24sp"
+                        android:paddingEnd="12dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
