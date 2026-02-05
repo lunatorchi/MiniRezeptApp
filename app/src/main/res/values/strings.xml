@@ -1,3 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MiniRezeptApp</string>
+    <string name="app_name">Mini Rezept App</string>
+
+    <!-- MainActivity Strings -->
+    <string name="search_hint">Zutat suchen...</string>
+    <string name="search_button">Suchen</string>
+    <string name="category_label">Kategorie:</string>
+    <string name="favorites_button">Favoriten</string>
+    <string name="show_all_button">Alle anzeigen</string>
+    <string name="add_recipe_button">+ Neues Rezept</string>
+
+    <!-- AddRecipeActivity Strings -->
+    <string name="new_recipe_title">Neues Rezept</string>
+    <string name="recipe_name_label">Rezeptname:</string>
+    <string name="recipe_name_hint">z.B. Spaghetti Carbonara</string>
+    <string name="category_label_add">Kategorie:</string>
+    <string name="ingredients_label">Zutaten (durch Komma trennen):</string>
+    <string name="ingredients_hint">z.B. 400g Spaghetti, 200g Speck, 4 Eier, Parmesan</string>
+    <string name="description_label">Zubereitung:</string>
+    <string name="description_hint">Beschreiben Sie die Zubereitungsschritte...</string>
+    <string name="save_button">Speichern</string>
+    <string name="cancel_button">Abbrechen</string>
+
+    <!-- RecipeDetailActivity Strings -->
+    <string name="back_button">Zurück</string>
+    <string name="favorite_icon_description">Favorit</string>
+
+    <!-- Toast Messages -->
+    <string name="recipe_saved">Rezept gespeichert!</string>
+    <string name="recipe_deleted">Rezept gelöscht</string>
+    <string name="added_to_favorites">Zu Favoriten hinzugefügt</string>
+    <string name="removed_from_favorites">Aus Favoriten entfernt</string>
+    <string name="no_recipes_found">Keine Rezepte mit \'%s\' gefunden</string>
+    <string name="no_favorites">Keine Favoriten vorhanden</string>
+    <string name="enter_ingredient">Bitte eine Zutat eingeben</string>
+    <string name="enter_name">Bitte einen Namen eingeben</string>
+    <string name="enter_ingredients">Bitte Zutaten eingeben</string>
+    <string name="enter_description">Bitte eine Beschreibung eingeben</string>
+
+    <!-- Dialog Strings -->
+    <string name="delete_dialog_title">Rezept löschen</string>
+    <string name="delete_dialog_message">Möchten Sie \'%s\' wirklich löschen?</string>
+    <string name="delete_confirm">Löschen</string>
+    <string name="delete_cancel">Abbrechen</string>
+
+    <!-- Categories -->
+    <string-array name="categories">
+        <item>Frühstück</item>
+        <item>Hauptgericht</item>
+        <item>Dessert</item>
+        <item>Snack</item>
+    </string-array>
+
+    <string-array name="categories_with_all">
+        <item>Alle Kategorien</item>
+        <item>Frühstück</item>
+        <item>Hauptgericht</item>
+        <item>Dessert</item>
+        <item>Snack</item>
+    </string-array>
 </resources>
