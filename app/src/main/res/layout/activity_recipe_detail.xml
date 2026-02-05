@@ -69,12 +69,6 @@
                 android:padding="16dp"
                 android:gravity="center_vertical">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="📂"
-                    android:textSize="24sp"
-                    android:paddingEnd="12dp" />
 
                 <TextView
                     android:id="@+id/text_view_recipe_category"
@@ -107,13 +101,6 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:paddingBottom="12dp">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="🥕"
-                        android:textSize="24sp"
-                        android:paddingEnd="12dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -162,12 +149,6 @@
                     android:orientation="horizontal"
                     android:paddingBottom="12dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="👨‍🍳"
-                        android:textSize="24sp"
-                        android:paddingEnd="12dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
