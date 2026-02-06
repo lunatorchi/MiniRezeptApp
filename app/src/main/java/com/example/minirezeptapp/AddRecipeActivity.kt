@@ -10,6 +10,18 @@ import com.example.minirezeptapp.viewmodel.RecipeViewModel
 /**
  * Activity zum Hinzufügen eines neuen Rezepts
  * Erfüllt User Story 1: Als Nutzer möchte ich ein eigenes Rezept hinzufügen können
+ *
+ * Quelle:
+ * - Android Activities Documentation
+ *   https://developer.android.com/guide/components/activities
+ *
+ * ->>
+ * - AppCompatActivity
+ * - onCreate Lifecycle
+ *
+ * selbst entwickelt:
+ * - Logik zum Hinzufügen eines Rezepts
+ * - Validierung und UX
  */
 class AddRecipeActivity : AppCompatActivity() {
     
@@ -24,7 +36,11 @@ class AddRecipeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_add_recipe)
-        
+
+        /**
+         * QUELLE: ViewModelProvider
+         * https://developer.android.com/topic/libraries/architecture/viewmodel
+         */
         viewModel = ViewModelProvider(this)[RecipeViewModel::class.java]
         
         initViews()

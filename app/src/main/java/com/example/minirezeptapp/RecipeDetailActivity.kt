@@ -11,8 +11,16 @@ import com.example.minirezeptapp.data.Recipe
 import com.example.minirezeptapp.viewmodel.RecipeViewModel
 
 /**
- * Activity zur Anzeige der Rezeptdetails
- * Zeigt vollständige Information zu einem Rezept
+ * Quelle:
+ * - Android Activities Documentation
+ *   https://developer.android.com/guide/components/activities
+ *
+ * ->>
+ * - AppCompatActivity
+ * - onCreate Lifecycle
+ *
+ * selbst entwickelt:
+ * - Anzeige und Logik der Rezeptdetails
  */
 class RecipeDetailActivity : AppCompatActivity() {
     
